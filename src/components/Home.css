@@ -1,0 +1,59 @@
+.header {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	background-color: rgba(19, 25, 33);
+	color: #fff;
+	padding: 0 20px;
+}
+
+.header__logo {
+	width: 97px;
+	height: 30px;
+	margin-right: 20px;
+	margin-top: 8px;
+	object-fit: contain;
+	cursor: pointer;
+}
+
+.header__input {
+	border-radius: 5px;
+	flex: 1;
+	border: none;
+	outline: 0;
+	padding: 10px 10px 10px 0;
+	line-height: 15px;
+	text-indent: 20px;
+	margin-right: 20px;
+}
+
+.header__login {
+	font-size: inherit;
+	color: inherit;
+	margin-right: 20px;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	width: 80px;
+}
+
+.header__cart {
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 20px;
+	position: relative;
+}
+
+.header__cart > img {
+	width: 30px;
+}
+
+.header__cart > span {
+	color: #f08804;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	top: -5px;
+	left: 35px;
+}

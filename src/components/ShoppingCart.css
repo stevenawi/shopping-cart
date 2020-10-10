@@ -1,0 +1,141 @@
+.shoppingCart {
+	padding: 20px 50px;
+	display: flex;
+}
+
+.shoppingCart__left {
+	flex: 1;
+	margin-right: 50px;
+}
+
+.shoppingCart__right {
+	width: 300px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	background-color: #f3f3f3;
+	text-align: center;
+	height: 100%;
+}
+
+.shoppingCart__checkOut {
+	padding: 14px 18px;
+}
+
+.shoppingCart > h1 {
+	margin-bottom: 40px;
+}
+
+.shoppingCart__priceText {
+	display: flex;
+	justify-content: flex-end;
+	color: #555555;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.shoppingCart > p {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+.shoppingCart__item {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.shoppingCart__name {
+	color: #0066c0;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.shoppingCart__quantity > span {
+	margin-right: 20px;
+}
+
+.shoppingCart__quantity > button {
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	outline: none;
+	background-color: transparent;
+}
+
+.shoppingCart__modify,
+.shoppingCart__amount {
+	min-width: 30px;
+	height: 30px;
+}
+
+.shoppingCart__modify {
+	cursor: pointer;
+}
+
+.shoppingCart__amount {
+	border-left: none !important;
+	border-right: none !important;
+}
+
+.shoppingCart__remove {
+	display: block;
+	margin-top: 20px;
+}
+
+.shoppingCart__modify:hover,
+.shoppingCart__remove:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.shoppingCart__products {
+	display: flex;
+	align-items: flex-start;
+}
+
+.shoppingCart__products > img {
+	margin-right: 20px;
+}
+
+.shoppingCart__price {
+	white-space: nowrap;
+	color: #111;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.shoppingCart__subTotal {
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.shoppingCart__subTotalItem,
+.shoppingCart__subTotalPrice {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.shoppingCart__subTotalPrice {
+	font-weight: 700;
+	margin-left: 5px;
+}
+
+.shoppingCart__checkOut > button {
+	background: #f0c14b;
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 4px;
+	font-size: 15px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.shoppingCart__checkOut > button:hover {
+	background: #f6d992;
+}
